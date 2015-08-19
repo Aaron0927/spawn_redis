@@ -100,7 +100,7 @@ void fs_close(int fd)
 
 int main()
 {
-    int fd = fs_open("192.168.182.12", 6379);
+    int fd = fs_open("10.107.12.22", 6379);
     
     getchar();
     fs_close(fd);
